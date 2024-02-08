@@ -24,6 +24,7 @@
 		4C2C7B2B2B7511BC00090E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C2C7B2E2B7511BC00090E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C2C7B302B7511BC00090E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2C7B382B75157000090E26 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				4C2C7B2B2B7511BC00090E26 /* Assets.xcassets */,
 				4C2C7B2D2B7511BC00090E26 /* LaunchScreen.storyboard */,
 				4C2C7B302B7511BC00090E26 /* Info.plist */,
+				4C2C7B382B75157000090E26 /* Config.xcconfig */,
 			);
 			path = "Secure API";
 			sourceTree = "<group>";
@@ -168,6 +170,7 @@
 /* Begin XCBuildConfiguration section */
 		4C2C7B312B7511BC00090E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2C7B382B75157000090E26 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -231,6 +234,7 @@
 		};
 		4C2C7B322B7511BC00090E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2C7B382B75157000090E26 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;

@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let apiKey = Bundle.main.infoDictionary?["API_KEY"] as? String ?? "API KEY error!"
+        
+        print(apiKey)
     }
-
-
 }
 
